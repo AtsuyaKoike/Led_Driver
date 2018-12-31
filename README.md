@@ -17,7 +17,7 @@ A program that converts hexadecimal numbers to binary numbers
 # Installation
 ## step1
 ### connect
-GND----Resistor----GPIO <br>
+GND----LED----Resistor----GPIO <br>
 I used GPIO4, 18, 17, 27, 22, 23, 24, 25
 
 ## step2
