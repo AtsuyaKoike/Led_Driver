@@ -1,16 +1,36 @@
+/*
+ * myled.c
+ *
+ * Copyright (C) 2018 AtsuyaKoike <atsuyak97@gmail.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
 /* -------- Relationship between LED and BCM --------
-*
-*		GND------GND
-*		LED0-----BCM4
-*		LED1-----BCM18
-*		LED2-----BCM17
-*		LED3-----BCM27
-*		LED4-----BCM22
-*		LED5-----BCM23
-*		LED6-----BCM24
-*		LED7-----BCM25
-*
- -------- Relationship between LED and BCM --------*/
+ *
+ *		GND------GND
+ *		LED0-----BCM4
+ *		LED1-----BCM18
+ *		LED2-----BCM17
+ *		LED3-----BCM27
+ *		LED4-----BCM22
+ *		LED5-----BCM23
+ *		LED6-----BCM24
+ *		LED7-----BCM25
+ *
+ --------------------------------------------------*/
 
 #include <linux/module.h>
 #include <linux/fs.h>
